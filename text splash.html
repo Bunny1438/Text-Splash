@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text splash color</title>
+<style type="text/css">
+	body,h1{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-color: black;
+
+}
+.text h1{
+	font-size: 180px;
+	color: rgba(225,225,225,.1);
+    background-image: url(color1.jpg);
+    background-repeat: repeat-x;
+    -webkit-background-clip:text;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate{
+	0%{
+		background-position: left 0px top 10px;
+
+	}
+	100%
+	{
+		background-position: left 800px top 10px;
+	}
+}
+.text {
+	margin-top: 15%;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="text">
+<hr width="55%">
+
+	<h1>COLOR</h1>
+		<hr width="55%">
+</div>
+
+</body>
+</html>
